@@ -49,8 +49,11 @@ hr {
 
 .top-container {
   background-color: #e4f9f5;
-  padding: 12.5rem;
-  position: relative;
+  padding: 12.5rem 0 12.5rem;
+}
+
+.top-message {
+  position: static;
 }
 
 .middle-container {
@@ -92,14 +95,20 @@ hr {
 
 .top-cloud {
   position: absolute;
-  right: 37.5rem;
-  top: 6.25rem;
+  /* right: 37.5rem; */
+  right: 27vw;
+  top: 22vh;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 35rem;
-  bottom: 31.25rem;
+  /* left: 35rem; */
+  left: 25vw;
+  bottom: 12vh;
+}
+
+.mountain-img {
+  width: 30%;
 }
 
 .btn {
@@ -111,11 +120,11 @@ hr {
   background-image: linear-gradient(to bottom, #11cdd4, #11999e);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  font-size: 1rem;
+  padding: 0.6rem;
   text-decoration: none;
 }
 
