@@ -1,2 +1,1 @@
 Let's write something better. Lets see how it goes.
-This line contains a bug.
